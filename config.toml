@@ -81,31 +81,20 @@ googleAnalytics = ""
 	# Services section
 	[params.services]
         enable = true
-		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "Formación"
+		subtitle = "Un poco sobre mi formación"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                title = "UPM"
+                description = "Desde el 2009, dándolo todo en la ETSI de Caminos, Canales y Puertos"
 
             [[params.services.row.list]]
                 icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-            [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-						[[params.services.row.list]]
-								icon = "fa-lock"
-								title = "Web2"
-								description = "2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
+                title = "ENPC"
+                description = "Participación en el programa de Doble Diploma entre la Ecole des Ponts y la UPM. Durante 3 años"
 
 
 	# Portfolio section
