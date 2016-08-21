@@ -41,11 +41,11 @@ googleAnalytics = ""
 	# Navigation
 	[params.navigation]
 		brand = "JCT"
-		services = "Services"
-		portfolio = "Portfolio"
-		about = "About"
-		team = "Team"
-		contact = "Contact"
+		services = "Formación"
+		portfolio = "Proyectos"
+		about = "Sobre mi"
+		team = "Habilidades"
+		contact = "Contacto"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -59,8 +59,13 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
+        url = "/en"
+        name = "English"
+        weight = 10
+
+		[[menu.postpend]]
+        url = "/fr"
+        name = "Français"
         weight = 10
 
 
@@ -68,9 +73,9 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
-		buttonText = "Tell me more"
+		title = "Ingeniero de Caminos, Canales y Puertos"
+		subtitle = "Javier Córdoba Torres"
+		buttonText = "Más sobre mi"
 
 
 	# Services section
