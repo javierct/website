@@ -159,31 +159,21 @@ googleAnalytics = ""
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+			img = "caminos.jpg"
+			name = "Universidad Politécnica de Madrid"
+			position = "ETSI de Caminos, Canales y Puertos"
 			social = [
-				["fa-twitter", "#"],
+				["fa-twitter", "www.google.es"],
 				["fa-facebook", "#"],
 				["fa-linkedin", "#"]
 			]
 
 		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
+			img = "enpc2.jpg"
+			name = "Ecole Nationale des Ponts et Chaussées"
+			position = "Departamento de Ingeniería Civil y Construcción"
 			social = [
-				["fa-twitter", "#"],
 				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
 				["fa-facebook", "#"],
 				["fa-linkedin", "#"]
 			]
